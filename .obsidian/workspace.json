@@ -136,6 +136,22 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2f97c8e28a117cb2",
-  "lastOpenFiles": []
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dda3d2477ff8e83f",
+  "lastOpenFiles": [
+    "Assets/DiagramaER_Pomoday.mdj",
+    "Pasted image 20230329155156.png",
+    "Assets/Pasted image 20230329155340.png",
+    "README.md",
+    "Assets"
+  ]
 }
