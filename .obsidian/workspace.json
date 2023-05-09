@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "99cd71300fd2dbfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,12 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dda3d2477ff8e83f",
+  "active": "99cd71300fd2dbfb",
   "lastOpenFiles": [
+    "Banco de Dados.md",
+    "README.md",
+    "Assets/Pasted image 20230509160459.png",
     "Assets/DiagramaER_Pomoday.mdj",
     "Pasted image 20230329155156.png",
     "Assets/Pasted image 20230329155340.png",
-    "README.md",
     "Assets"
   ]
 }
