@@ -20,7 +20,7 @@ Mobile
 Desktop
 
 # Diagrama Entidade Relacionamento
-![Diagrama de Entidade e Relacionamento versão 1.1](Pasted%20image%2020230509160459.png)
+![Diagrama de Entidade e Relacionamento versão 1.1](/Assets/Pasted%20image%2020230509160459.png)
 
 
 # Ideias de Features

@@ -1,6 +1,6 @@
 
 ## DER v1.1
-![Diagrama de Entidade e Relacionamento versão 1.1](Pasted%20image%2020230509160459.png)
+![Diagrama de Entidade e Relacionamento versão 1.1](/Assets/Pasted%20image%2020230509160459.png)
 
 ## DER v1.0
 
