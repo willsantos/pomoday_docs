@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b0ed3e8e2760b87a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -75,6 +87,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "365913f825407bfd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -159,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99cd71300fd2dbfb",
+  "active": "b0ed3e8e2760b87a",
   "lastOpenFiles": [
     "Banco de Dados.md",
     "README.md",
