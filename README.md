@@ -20,7 +20,7 @@ Mobile
 Desktop
 
 # Diagrama Entidade Relacionamento
-![Diagrama de Entidade e Relacionamento versão 1.1](/Assets/Pasted%20image%2020230509160459.png)
+![Diagrama de Entidade e Relacionamento versão 1.2](/Assets/Pasted%20image%2020230510182048.png)
 
 
 # Ideias de Features
@@ -34,14 +34,19 @@ Projetos devem ser configurados com um nome e cor(codigo hex).
 
 Ao puxar (GET) um projeto ele deve trazer todas as tarefas relacionadas a ele. Com possibilidade de filtros(Query String) para ordenar por prazo, status, prioridade.
 
-Existe um projeto padrão chamado "Minhas Tarefas".
 
 ## Tarefas
 Uma tarefa pertece a somente um projeto.
-Tarefa tem o titulo como campo obrigatório, status com o padrão "não iniciado", pioridade com o padrão "normal", projeto com o padrão id=1 "Minhas Tarefas" e tempo,tempo estimado, data e prazo opcional.
+Tarefa tem o titulo como campo obrigatório, status com o padrão "não iniciado", pioridade com o padrão "normal", tempo,tempo estimado, data e prazo opcional.
 
-## Dia
-O dia tem inicio e fim, ao iniciar o dia o usuário pode adicionar tarefas a ele, ao finalizar o dia, as tarefas são registradas. O dia guarda o registro de quantas tarefas e quanto tempo foi gasto naquele dia e em cada tarefa.
+## Registros
+Cada atualização de tempo é um novo registro, quando uma tarefa for marcada como concluida alem de alterar o status e registrar a data. Novos registros não poderão ser adicionados referenciado ela.
+
+~~## Dia
+O dia tem inicio e fim, ao iniciar o dia o usuário pode adicionar tarefas a ele, ao finalizar o dia, as tarefas são registradas. O dia guarda o registro de quantas tarefas e quanto tempo foi gasto naquele dia e em cada tarefa.~~
+
+## Agendamentos
+O usuario pode definir quais tarefas serão agendadas para aquele dia.
 
 ## Atualizar tempo
 Precisa de uma chamada que atulize apenas o tempo de uma tarefa.
@@ -55,15 +60,15 @@ Ao atualizar o tempo, nunca pode receber um valor menor que o anterior.
 
 Um Usuário pode ter 0-N projetos
 Um Usuario pode ter 0-N Tarefas
-Um Usuario pode ter 0-N Dias
 
 Um projeto pertence apenas a 1 usuario
 Um projeto pode ter 0-N Tarefas
-O projeto não se relaciona diretamente com o Dia.
 
 Uma tarefa pertence 0 ou 1 projeto.
 Uma tarefa pertence a 1 usuario obrigatoriamente.
-Uma tarefa pode estar em N dias.
+Uma tarefa pode ter 0-N registros
+
+Um registro pertece a uma unica tarefa.
 
 
 
